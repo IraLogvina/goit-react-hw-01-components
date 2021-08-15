@@ -32,13 +32,12 @@ const Profile = ({ name, tag, location, avatar, stats }) => (
     </div>
 );
 
-Profile.propTypes = {
-    
-    name: PropTypes.string,
-    tag: PropTypes.string,
-    avatar: PropTypes.string,
-    stats: PropTypes.number,
-};
-
+Profile.propTypes ={
+    name: PropTypes.string.isRequired,
+    tag: PropTypes.string.isRequired,
+    location: PropTypes.string.isRequired,
+    avatar: PropTypes.string.isRequired,
+    stats: PropTypes.number.isRequired
+}
 
 export default Profile;
