@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import styles from './statistics.module.css';
+import styles from './Statistics.module.css';
 
 const randomColor = () => '#'+(0x1000000+(Math.random())*0xffffff).toString(16).substr(1,6)
 
